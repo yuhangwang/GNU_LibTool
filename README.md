@@ -11,8 +11,8 @@ Please visit the official website for more details: http://www.gnu.org/software/
 You can download the compiled binary files at the [release page](https://github.com/yuhangwang/GNU_LibTool/releases).
 
 ## Compilation notes
-**!!! make sure you use GNU Autoconf 2.69, because the **configure** file in the source folder was
-generated using that version. I tried using Autoconf 2.63 (2008), one the tests (after issuing **make check**)
+**!!! make sure you use GNU Autoconf 2.69, because the *configure* file in the source folder was
+generated using that version. I tried using Autoconf 2.63 (2008), one the tests (after issuing *make check*)
 didn't pass**
 
 ### Compilation environment
