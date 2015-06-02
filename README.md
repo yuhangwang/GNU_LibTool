@@ -36,5 +36,6 @@ make install
 ### Quality verification
 - **156 tests behaved as expected**
 - **14 tests were skipped**
+- **0 failing tests**
 
 See the "QualityVerification.txt" for the output of "make check".
