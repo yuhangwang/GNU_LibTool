@@ -23,11 +23,11 @@ didn't pass**
 ### Compilation steps
 #### Version: 2.4.6 (2015)
 ```bash
-wget 
+wget http://mirror.clarkson.edu/gnu/libtool/libtool-2.4.6.tar.gz
 tar xvf libtool-2.4.6
 mkdir build_libtool-2.4.6
 cd build_libtool-2.4.6
-../libtool-2.4.6/configure --prefix=/home/steven/install/libtool/2.4.6
+../libtool-2.4.6/configure --prefix=/home/steven/install/libtool/2.4.6 --enable-shared --enable-static M4=/home/steven/install/m4/1.4.17/bin/m4
 make -j16
 make check -j16 | tee QualityVerification.txt
 make install
